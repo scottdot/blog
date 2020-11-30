@@ -1,13 +1,17 @@
 ---
-layout: page
+layout: dark
 title: About
+example: Example text in this variable.
 ---
 
-Here's the glorious about page.
+Here's where you can learn all about the glorious {{ site.title }} by {{ site.author.name }}.
+{{ page.example }}
 
 ## What is Haiku?
 
-Description
+This is where we will be bringing in our first ever include file from our Jekyll project.
+
+{% include big-cat.html %}
 
 ## Why New Mexico?
 
