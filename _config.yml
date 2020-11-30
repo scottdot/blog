@@ -1,0 +1,9 @@
+# Site settings
+title: New Mexiku
+author:
+  name: Scott Knauer
+  email: sknauer@mac.com
+description: "Haiku Poetry from the Land of Enchantment"
+
+# Build settings
+remote_theme: jekyll/minima
